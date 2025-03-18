@@ -6,7 +6,7 @@ import { Task, TaskStatus } from "./task.model";
         providedIn: 'root'
     }
 )
-export class TasksService implements OnInit {
+export class TasksService {
 
     private tasks = signal<Task[]>([]);
 
